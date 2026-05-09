@@ -1,0 +1,29 @@
+income:
+  grossUsd: 150000
+  filingStatus: single
+  dependents: 0
+
+housing:
+  mode: own
+  homePriceUsd: 500000
+  rentMonthlyUsd: 0
+
+spending:
+  taxableAnnualUsd: 30000
+
+climate:
+  idealTempF: 65
+  sunDaysImportance: 0.7
+  snowTolerance: 0.3
+  humidityTolerance: 0.4
+
+lifestyle:
+  politicsLeanIdeal: -20
+  urbanIdealPct: 70
+  outdoorRecImportance: 0.8
+  schoolImportance: 0.4
+
+weights:
+  money: 0.5
+  climate: 0.3
+  lifestyle: 0.2

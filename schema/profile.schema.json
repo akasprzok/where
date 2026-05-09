@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Profile",
+  "type": "object",
+  "required": ["income", "housing", "spending", "climate", "weights"],
+  "properties": {
+    "income": {
+      "type": "object",
+      "required": ["grossUsd", "filingStatus"],
+      "properties": {
+        "grossUsd": { "type": "integer", "minimum": 0 },
+        "filingStatus": { "enum": ["single", "married", "hoh"] },
+        "dependents": { "type": "integer", "minimum": 0, "default": 0 }
+      }
+    },
+    "housing": {
+      "type": "object",
+      "required": ["mode"],
+      "properties": {
+        "mode": { "enum": ["own", "rent"] },
+        "homePriceUsd": { "type": "integer", "minimum": 0 },
+        "rentMonthlyUsd": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "spending": {
+      "type": "object",
+      "required": ["taxableAnnualUsd"],
+      "properties": {
+        "taxableAnnualUsd": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "climate": {
+      "type": "object",
+      "required": ["idealTempF", "sunDaysImportance", "snowTolerance", "humidityTolerance"],
+      "properties": {
+        "idealTempF": { "type": "number" },
+        "sunDaysImportance": { "type": "number", "minimum": 0, "maximum": 1 },
+        "snowTolerance": { "type": "number", "minimum": 0, "maximum": 1 },
+        "humidityTolerance": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "lifestyle": {
+      "type": "object",
+      "required": ["politicsLeanIdeal", "urbanIdealPct", "outdoorRecImportance", "schoolImportance"],
+      "properties": {
+        "politicsLeanIdeal": { "type": "number", "minimum": -100, "maximum": 100 },
+        "urbanIdealPct": { "type": "number", "minimum": 0, "maximum": 100 },
+        "outdoorRecImportance": { "type": "number", "minimum": 0, "maximum": 1 },
+        "schoolImportance": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "weights": {
+      "type": "object",
+      "required": ["money", "climate", "lifestyle"],
+      "properties": {
+        "money": { "type": "number", "minimum": 0, "maximum": 1 },
+        "climate": { "type": "number", "minimum": 0, "maximum": 1 },
+        "lifestyle": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    }
+  }
+}
