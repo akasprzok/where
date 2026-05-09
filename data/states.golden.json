@@ -1,0 +1,78 @@
+[
+  {
+    "climate": {
+      "avgTempF": 59.0,
+      "humidityAvgPct": 61.0,
+      "snowDaysPerYear": 1,
+      "sunDaysPerYear": 258
+    },
+    "code": "CA",
+    "col": {
+      "rpp": 1.13
+    },
+    "demographics": {
+      "densityPerSqMi": 253.0,
+      "medianAge": 37.3,
+      "population": 39000000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 85,
+      "politicsLean": -30.0,
+      "schoolRating": 70,
+      "urbanizationPct": 95.0
+    },
+    "name": "California",
+    "tax": {
+      "avgLocalSalesRate": 0.0131,
+      "effectivePropertyRate": 0.0073,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 100,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 200,
+          "thresholdUsd": 10412
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 1330,
+          "thresholdUsd": 1000000
+        }
+      ],
+      "salesRate": 0.0725
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 65.0,
+      "humidityAvgPct": 64.0,
+      "snowDaysPerYear": 2,
+      "sunDaysPerYear": 230
+    },
+    "code": "TX",
+    "col": {
+      "rpp": 0.97
+    },
+    "demographics": {
+      "densityPerSqMi": 115.0,
+      "medianAge": 35.4,
+      "population": 30000000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 70,
+      "politicsLean": 25.0,
+      "schoolRating": 60,
+      "urbanizationPct": 84.0
+    },
+    "name": "Texas",
+    "tax": {
+      "avgLocalSalesRate": 0.0194,
+      "effectivePropertyRate": 0.0181,
+      "incomeBrackets": [],
+      "salesRate": 0.0625
+    }
+  }
+]
