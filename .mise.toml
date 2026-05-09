@@ -1,0 +1,32 @@
+[tools]
+python = "3.12"
+node = "22"
+uv = "latest"
+pnpm = "latest"
+
+[tasks.refresh]
+description = "Pull sources, transform, write data/states.json"
+run = "uv run python -m etl.refresh"
+
+[tasks.dev]
+description = "Run frontend dev server"
+dir = "web"
+run = "pnpm dev"
+
+[tasks.build]
+description = "Build frontend"
+dir = "web"
+run = "pnpm build"
+
+[tasks."test:py"]
+description = "Run Python tests"
+run = "uv run pytest -v"
+
+[tasks."test:web"]
+description = "Run web tests"
+dir = "web"
+run = "pnpm test --run"
+
+[tasks.test]
+description = "Run all tests"
+depends = ["test:py", "test:web"]
