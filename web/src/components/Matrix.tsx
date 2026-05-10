@@ -66,7 +66,7 @@ export function Matrix({ states, profile }: Props) {
           <tr key={r.id}>
             {r.getVisibleCells().map((c) => (
               <td key={c.id} style={{ padding: 8, borderBottom: "1px solid #eee" }}>
-                {flexRender(c.column.columnDef.cell ?? c.column.columnDef.header, c.getContext())}
+                {flexRender(c.column.columnDef.cell, c.getContext())}
               </td>
             ))}
           </tr>
