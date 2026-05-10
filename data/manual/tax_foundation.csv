@@ -1,0 +1,3 @@
+code,salesRate,avgLocalSalesRate,effectivePropertyRate,incomeBracketsJson
+TX,0.0625,0.0194,0.0181,"[]"
+CA,0.0725,0.0131,0.0073,"[{""filingStatus"":""single"",""rateBps"":100,""thresholdUsd"":0},{""filingStatus"":""single"",""rateBps"":200,""thresholdUsd"":10412},{""filingStatus"":""single"",""rateBps"":1330,""thresholdUsd"":1000000}]"

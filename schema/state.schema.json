@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "StateRecord",
+  "type": "object",
+  "required": ["code", "name", "tax", "climate", "col", "demographics", "lifestyle"],
+  "properties": {
+    "code": { "type": "string", "pattern": "^[A-Z]{2}$" },
+    "name": { "type": "string" },
+    "tax": {
+      "type": "object",
+      "required": ["incomeBrackets", "salesRate", "avgLocalSalesRate", "effectivePropertyRate"],
+      "properties": {
+        "incomeBrackets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["filingStatus", "rateBps", "thresholdUsd"],
+            "properties": {
+              "filingStatus": { "enum": ["single", "married", "hoh"] },
+              "rateBps": { "type": "integer", "minimum": 0, "maximum": 10000 },
+              "thresholdUsd": { "type": "integer", "minimum": 0 }
+            }
+          }
+        },
+        "salesRate": { "type": "number", "minimum": 0, "maximum": 0.2 },
+        "avgLocalSalesRate": { "type": "number", "minimum": 0, "maximum": 0.1 },
+        "effectivePropertyRate": { "type": "number", "minimum": 0, "maximum": 0.05 }
+      }
+    },
+    "climate": {
+      "type": "object",
+      "required": ["avgTempF", "sunDaysPerYear", "snowDaysPerYear", "humidityAvgPct"],
+      "properties": {
+        "avgTempF": { "type": "number" },
+        "sunDaysPerYear": { "type": "integer", "minimum": 0, "maximum": 366 },
+        "snowDaysPerYear": { "type": "integer", "minimum": 0, "maximum": 366 },
+        "humidityAvgPct": { "type": "number", "minimum": 0, "maximum": 100 }
+      }
+    },
+    "col": {
+      "type": "object",
+      "required": ["rpp"],
+      "properties": {
+        "rpp": { "type": "number", "minimum": 0.5, "maximum": 2.0 }
+      }
+    },
+    "demographics": {
+      "type": "object",
+      "required": ["population", "densityPerSqMi", "medianAge"],
+      "properties": {
+        "population": { "type": "integer", "minimum": 0 },
+        "densityPerSqMi": { "type": "number", "minimum": 0 },
+        "medianAge": { "type": "number", "minimum": 0, "maximum": 120 }
+      }
+    },
+    "lifestyle": {
+      "type": "object",
+      "required": ["politicsLean", "urbanizationPct", "outdoorRecRating", "schoolRating"],
+      "properties": {
+        "politicsLean": { "type": "number", "minimum": -100, "maximum": 100 },
+        "urbanizationPct": { "type": "number", "minimum": 0, "maximum": 100 },
+        "outdoorRecRating": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "schoolRating": { "type": "integer", "minimum": 0, "maximum": 100 }
+      }
+    }
+  }
+}

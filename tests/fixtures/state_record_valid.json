@@ -1,0 +1,14 @@
+{
+  "code": "TX",
+  "name": "Texas",
+  "tax": {
+    "incomeBrackets": [],
+    "salesRate": 0.0625,
+    "avgLocalSalesRate": 0.02,
+    "effectivePropertyRate": 0.0181
+  },
+  "climate": {"avgTempF": 65, "sunDaysPerYear": 230, "snowDaysPerYear": 2, "humidityAvgPct": 64},
+  "col": {"rpp": 0.97},
+  "demographics": {"population": 30000000, "densityPerSqMi": 115, "medianAge": 35.4},
+  "lifestyle": {"politicsLean": 25, "urbanizationPct": 84, "outdoorRecRating": 70, "schoolRating": 60}
+}

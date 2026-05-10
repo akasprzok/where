@@ -1,0 +1,11 @@
+{
+  "refreshedAt": "2026-05-09T21:25:29.583886+00:00",
+  "sources": {
+    "climate": "ok",
+    "demographics": "ok",
+    "lifestyle": "ok",
+    "rpp": "ok",
+    "tax_foundation": "ok"
+  },
+  "stateCount": 2
+}
