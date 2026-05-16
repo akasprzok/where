@@ -1,7 +1,6 @@
 """Strict-equality completeness tests: all data files cover exactly the 50 US states."""
 from __future__ import annotations
 
-import json
 from pathlib import Path
 
 import pandas as pd
