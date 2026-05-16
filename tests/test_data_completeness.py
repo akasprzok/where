@@ -44,3 +44,14 @@ def test_csv_covers_50_states(filename: str):
     assert "code" in df.columns, f"{filename} missing 'code' column"
     assert len(df) == 50, f"{filename} has {len(df)} rows, expected 50"
     assert set(df["code"]) == USPS_50, f"{filename} codes != USPS_50"
+
+
+import json as _json
+
+
+@pytest.mark.parametrize("code", sorted(NO_INCOME_TAX))
+def test_no_income_tax_states_have_empty_brackets(code: str):
+    df = pd.read_csv(DATA_MANUAL / "tax_foundation.csv").set_index("code")
+    raw = df.at[code, "incomeBracketsJson"]
+    parsed = _json.loads(raw)
+    assert parsed == [], f"{code} should have empty income brackets, got {parsed}"
