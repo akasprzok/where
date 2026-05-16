@@ -27,3 +27,20 @@ def test_state_names_covers_50_states():
     assert len(STATE_NAMES) == 50
     for code, name in STATE_NAMES.items():
         assert isinstance(name, str) and name, f"{code} has empty name"
+
+
+SCHEMA_CSVS = [
+    "tax_foundation.csv",
+    "climate.csv",
+    "rpp.csv",
+    "demographics.csv",
+    "lifestyle.csv",
+]
+
+
+@pytest.mark.parametrize("filename", SCHEMA_CSVS)
+def test_csv_covers_50_states(filename: str):
+    df = pd.read_csv(DATA_MANUAL / filename)
+    assert "code" in df.columns, f"{filename} missing 'code' column"
+    assert len(df) == 50, f"{filename} has {len(df)} rows, expected 50"
+    assert set(df["code"]) == USPS_50, f"{filename} codes != USPS_50"
