@@ -1,6 +1,7 @@
 """Strict-equality completeness tests: all data files cover exactly the 50 US states."""
 from __future__ import annotations
 
+import json as _json
 from pathlib import Path
 
 import pandas as pd
@@ -44,9 +45,6 @@ def test_csv_covers_50_states(filename: str):
     assert "code" in df.columns, f"{filename} missing 'code' column"
     assert len(df) == 50, f"{filename} has {len(df)} rows, expected 50"
     assert set(df["code"]) == USPS_50, f"{filename} codes != USPS_50"
-
-
-import json as _json
 
 
 @pytest.mark.parametrize("code", sorted(NO_INCOME_TAX))
