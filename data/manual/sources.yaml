@@ -1,0 +1,84 @@
+- id: tax_foundation_income
+  name: Tax Foundation — State Individual Income Tax Rates
+  url: https://taxfoundation.org/data/all/state/state-income-tax-rates/
+  vintage: "2024"
+  pulled: "2026-05-16"
+  fields: [salesRate, incomeBrackets]
+  notes: Single-filer brackets only. NH treated as no-income-tax per 2025 repeal. LA reflects 2025 flat 3% reform; vintage drift acceptable for v0.
+
+- id: tax_foundation_local_sales
+  name: Tax Foundation — State and Local Sales Tax Rates
+  url: https://taxfoundation.org/data/all/state/2024-sales-taxes/
+  vintage: "2024"
+  pulled: "2026-05-16"
+  fields: [avgLocalSalesRate]
+  notes: NJ clamped to 0 (BEA-style negative local rate is non-physical).
+
+- id: tax_foundation_property
+  name: Tax Foundation — Property Taxes Paid as % of Owner-Occupied Housing Value
+  url: https://taxfoundation.org/data/all/state/property-taxes-by-state/
+  vintage: "2022"
+  pulled: "2026-05-16"
+  fields: [effectivePropertyRate]
+
+- id: noaa_normals
+  name: NOAA 1991-2020 U.S. Climate Normals
+  url: https://www.ncei.noaa.gov/products/land-based-station/us-climate-normals
+  vintage: "1991-2020"
+  pulled: "2026-05-16"
+  fields: [avgTempF, humidityAvgPct, sunDaysPerYear, snowDaysPerYear]
+  notes: State-capital primary station per state; HI uses HNL, AK uses ANC. Live fetch unavailable; values from training knowledge of NOAA Normals.
+
+- id: bea_rpp
+  name: BEA Regional Price Parities (all items)
+  url: https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area
+  vintage: "2023"
+  pulled: "2026-05-16"
+  fields: [rpp]
+  notes: Live fetch unavailable; values from training knowledge of 2023 BEA RPP.
+
+- id: census_acs5
+  name: Census ACS 5-year estimates
+  url: https://www.census.gov/programs-surveys/acs/data.html
+  vintage: "2019-2023"
+  pulled: "2026-05-16"
+  fields: [population, densityPerSqMi, medianAge]
+
+- id: cook_pvi
+  name: Cook Political Report — Partisan Voting Index
+  url: https://www.cookpolitical.com/cook-pvi
+  vintage: "2023"
+  pulled: "2026-05-16"
+  fields: [politicsLean]
+  notes: Stored raw PVI in lifestyle_sources.csv; politicsLean is signed integer (R = positive, D = negative).
+
+- id: census_urban_2020
+  name: Census 2020 Urban Area population share
+  url: https://www.census.gov/programs-surveys/geography/guidance/geo-areas/urban-rural.html
+  vintage: "2020"
+  pulled: "2026-05-16"
+  fields: [urbanizationPct]
+
+- id: usgs_padus
+  name: USGS Protected Areas Database (PAD-US 3.0)
+  url: https://www.usgs.gov/programs/gap-analysis-project/science/pad-us-data-overview
+  vintage: "3.0"
+  pulled: "2026-05-16"
+  fields: [outdoorRecRating]
+  notes: Public-land percent component of outdoorRecRating. Stored in lifestyle_sources.csv.publicLandPct.
+
+- id: nps_units
+  name: National Park Service — units by state
+  url: https://www.nps.gov/aboutus/national-park-system.htm
+  vintage: "2024"
+  pulled: "2026-05-16"
+  fields: [outdoorRecRating]
+  notes: NPS unit count component of outdoorRecRating. Stored in lifestyle_sources.csv.npsUnits.
+
+- id: naep_2024
+  name: NAEP 2024 Grade 8 Math + Reading
+  url: https://www.nationsreportcard.gov/
+  vintage: "2024"
+  pulled: "2026-05-16"
+  fields: [schoolRating]
+  notes: Math8 + Reading8 composite normalized 0-100. Stored in lifestyle_sources.csv.naepMath8 / naepRead8.
