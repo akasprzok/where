@@ -47,6 +47,14 @@ def test_csv_covers_50_states(filename: str):
     assert set(df["code"]) == USPS_50, f"{filename} codes != USPS_50"
 
 
+def test_lifestyle_sources_covers_50_states():
+    df = pd.read_csv(DATA_MANUAL / "lifestyle_sources.csv")
+    expected_cols = {"code", "cookPVI", "publicLandPct", "npsUnits", "naepMath8", "naepRead8"}
+    assert expected_cols.issubset(set(df.columns)), f"missing cols: {expected_cols - set(df.columns)}"
+    assert len(df) == 50
+    assert set(df["code"]) == USPS_50
+
+
 @pytest.mark.parametrize("code", sorted(NO_INCOME_TAX))
 def test_no_income_tax_states_have_empty_brackets(code: str):
     df = pd.read_csv(DATA_MANUAL / "tax_foundation.csv").set_index("code")
