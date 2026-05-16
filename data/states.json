@@ -1,6 +1,159 @@
 [
   {
     "climate": {
+      "avgTempF": 26.0,
+      "humidityAvgPct": 77.0,
+      "snowDaysPerYear": 53,
+      "sunDaysPerYear": 152
+    },
+    "code": "AK",
+    "col": {
+      "rpp": 1.05
+    },
+    "demographics": {
+      "densityPerSqMi": 1.0,
+      "medianAge": 35.0,
+      "population": 735000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 68,
+      "politicsLean": 8.0,
+      "schoolRating": 61,
+      "urbanizationPct": 64.0
+    },
+    "name": "Alaska",
+    "tax": {
+      "avgLocalSalesRate": 0.0182,
+      "effectivePropertyRate": 0.0062,
+      "incomeBrackets": [],
+      "salesRate": 0.0
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 63.0,
+      "humidityAvgPct": 72.0,
+      "snowDaysPerYear": 3,
+      "sunDaysPerYear": 199
+    },
+    "code": "AL",
+    "col": {
+      "rpp": 0.89
+    },
+    "demographics": {
+      "densityPerSqMi": 100.0,
+      "medianAge": 39.2,
+      "population": 5074000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 16,
+      "politicsLean": 15.0,
+      "schoolRating": 14,
+      "urbanizationPct": 59.0
+    },
+    "name": "Alabama",
+    "tax": {
+      "avgLocalSalesRate": 0.0529,
+      "effectivePropertyRate": 0.003,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 200,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 400,
+          "thresholdUsd": 500
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 500,
+          "thresholdUsd": 3000
+        }
+      ],
+      "salesRate": 0.04
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 60.0,
+      "humidityAvgPct": 70.0,
+      "snowDaysPerYear": 5,
+      "sunDaysPerYear": 217
+    },
+    "code": "AR",
+    "col": {
+      "rpp": 0.89
+    },
+    "demographics": {
+      "densityPerSqMi": 59.0,
+      "medianAge": 38.5,
+      "population": 3046000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 20,
+      "politicsLean": 16.0,
+      "schoolRating": 25,
+      "urbanizationPct": 56.0
+    },
+    "name": "Arkansas",
+    "tax": {
+      "avgLocalSalesRate": 0.0295,
+      "effectivePropertyRate": 0.0051,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 200,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 390,
+          "thresholdUsd": 4500
+        }
+      ],
+      "salesRate": 0.065
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 65.0,
+      "humidityAvgPct": 38.0,
+      "snowDaysPerYear": 2,
+      "sunDaysPerYear": 299
+    },
+    "code": "AZ",
+    "col": {
+      "rpp": 0.97
+    },
+    "demographics": {
+      "densityPerSqMi": 65.0,
+      "medianAge": 38.5,
+      "population": 7359000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 63,
+      "politicsLean": 5.0,
+      "schoolRating": 39,
+      "urbanizationPct": 89.0
+    },
+    "name": "Arizona",
+    "tax": {
+      "avgLocalSalesRate": 0.0278,
+      "effectivePropertyRate": 0.0048,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 250,
+          "thresholdUsd": 0
+        }
+      ],
+      "salesRate": 0.056
+    }
+  },
+  {
+    "climate": {
       "avgTempF": 59.0,
       "humidityAvgPct": 61.0,
       "snowDaysPerYear": 1,
@@ -16,9 +169,9 @@
       "population": 39000000
     },
     "lifestyle": {
-      "outdoorRecRating": 85,
-      "politicsLean": -30.0,
-      "schoolRating": 70,
+      "outdoorRecRating": 78,
+      "politicsLean": -13.0,
+      "schoolRating": 50,
       "urbanizationPct": 95.0
     },
     "name": "California",
@@ -47,6 +200,1718 @@
   },
   {
     "climate": {
+      "avgTempF": 50.0,
+      "humidityAvgPct": 54.0,
+      "snowDaysPerYear": 33,
+      "sunDaysPerYear": 245
+    },
+    "code": "CO",
+    "col": {
+      "rpp": 1.03
+    },
+    "demographics": {
+      "densityPerSqMi": 57.0,
+      "medianAge": 37.2,
+      "population": 5840000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 46,
+      "politicsLean": 1.0,
+      "schoolRating": 73,
+      "urbanizationPct": 86.0
+    },
+    "name": "Colorado",
+    "tax": {
+      "avgLocalSalesRate": 0.0491,
+      "effectivePropertyRate": 0.0042,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 440,
+          "thresholdUsd": 0
+        }
+      ],
+      "salesRate": 0.029
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 50.0,
+      "humidityAvgPct": 69.0,
+      "snowDaysPerYear": 25,
+      "sunDaysPerYear": 197
+    },
+    "code": "CT",
+    "col": {
+      "rpp": 1.1
+    },
+    "demographics": {
+      "densityPerSqMi": 742.0,
+      "medianAge": 41.3,
+      "population": 3626000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 6,
+      "politicsLean": -6.0,
+      "schoolRating": 61,
+      "urbanizationPct": 88.0
+    },
+    "name": "Connecticut",
+    "tax": {
+      "avgLocalSalesRate": 0.0,
+      "effectivePropertyRate": 0.0154,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 200,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 450,
+          "thresholdUsd": 10000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 550,
+          "thresholdUsd": 50000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 600,
+          "thresholdUsd": 100000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 650,
+          "thresholdUsd": 200000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 690,
+          "thresholdUsd": 250000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 699,
+          "thresholdUsd": 500000
+        }
+      ],
+      "salesRate": 0.0635
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 55.0,
+      "humidityAvgPct": 68.0,
+      "snowDaysPerYear": 14,
+      "sunDaysPerYear": 201
+    },
+    "code": "DE",
+    "col": {
+      "rpp": 1.02
+    },
+    "demographics": {
+      "densityPerSqMi": 487.0,
+      "medianAge": 41.2,
+      "population": 1018000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 3,
+      "politicsLean": -6.0,
+      "schoolRating": 45,
+      "urbanizationPct": 83.0
+    },
+    "name": "Delaware",
+    "tax": {
+      "avgLocalSalesRate": 0.0,
+      "effectivePropertyRate": 0.0049,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 220,
+          "thresholdUsd": 2000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 390,
+          "thresholdUsd": 5000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 480,
+          "thresholdUsd": 10000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 520,
+          "thresholdUsd": 20000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 555,
+          "thresholdUsd": 25000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 660,
+          "thresholdUsd": 60000
+        }
+      ],
+      "salesRate": 0.0
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 71.0,
+      "humidityAvgPct": 76.0,
+      "snowDaysPerYear": 0,
+      "sunDaysPerYear": 237
+    },
+    "code": "FL",
+    "col": {
+      "rpp": 1.0
+    },
+    "demographics": {
+      "densityPerSqMi": 411.0,
+      "medianAge": 43.0,
+      "population": 22244000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 16,
+      "politicsLean": 3.0,
+      "schoolRating": 59,
+      "urbanizationPct": 92.0
+    },
+    "name": "Florida",
+    "tax": {
+      "avgLocalSalesRate": 0.01,
+      "effectivePropertyRate": 0.0072,
+      "incomeBrackets": [],
+      "salesRate": 0.06
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 63.0,
+      "humidityAvgPct": 70.0,
+      "snowDaysPerYear": 3,
+      "sunDaysPerYear": 218
+    },
+    "code": "GA",
+    "col": {
+      "rpp": 0.93
+    },
+    "demographics": {
+      "densityPerSqMi": 190.0,
+      "medianAge": 37.4,
+      "population": 10912000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 26,
+      "politicsLean": 3.0,
+      "schoolRating": 41,
+      "urbanizationPct": 75.0
+    },
+    "name": "Georgia",
+    "tax": {
+      "avgLocalSalesRate": 0.0338,
+      "effectivePropertyRate": 0.008,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 539,
+          "thresholdUsd": 0
+        }
+      ],
+      "salesRate": 0.04
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 77.0,
+      "humidityAvgPct": 63.0,
+      "snowDaysPerYear": 0,
+      "sunDaysPerYear": 267
+    },
+    "code": "HI",
+    "col": {
+      "rpp": 1.13
+    },
+    "demographics": {
+      "densityPerSqMi": 223.0,
+      "medianAge": 40.0,
+      "population": 1440000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 23,
+      "politicsLean": -14.0,
+      "schoolRating": 36,
+      "urbanizationPct": 92.0
+    },
+    "name": "Hawaii",
+    "tax": {
+      "avgLocalSalesRate": 0.005,
+      "effectivePropertyRate": 0.0028,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 140,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 320,
+          "thresholdUsd": 9600
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 550,
+          "thresholdUsd": 14400
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 640,
+          "thresholdUsd": 19200
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 680,
+          "thresholdUsd": 24000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 720,
+          "thresholdUsd": 36000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 760,
+          "thresholdUsd": 48000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 790,
+          "thresholdUsd": 125000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 825,
+          "thresholdUsd": 175000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 900,
+          "thresholdUsd": 225000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 1000,
+          "thresholdUsd": 275000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 1100,
+          "thresholdUsd": 325000
+        }
+      ],
+      "salesRate": 0.04
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 49.0,
+      "humidityAvgPct": 71.0,
+      "snowDaysPerYear": 26,
+      "sunDaysPerYear": 201
+    },
+    "code": "IA",
+    "col": {
+      "rpp": 0.89
+    },
+    "demographics": {
+      "densityPerSqMi": 57.0,
+      "medianAge": 38.6,
+      "population": 3200000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 4,
+      "politicsLean": 7.0,
+      "schoolRating": 68,
+      "urbanizationPct": 64.0
+    },
+    "name": "Iowa",
+    "tax": {
+      "avgLocalSalesRate": 0.0094,
+      "effectivePropertyRate": 0.0119,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 380,
+          "thresholdUsd": 0
+        }
+      ],
+      "salesRate": 0.06
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 47.0,
+      "humidityAvgPct": 62.0,
+      "snowDaysPerYear": 28,
+      "sunDaysPerYear": 206
+    },
+    "code": "ID",
+    "col": {
+      "rpp": 0.96
+    },
+    "demographics": {
+      "densityPerSqMi": 23.0,
+      "medianAge": 36.5,
+      "population": 1939000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 49,
+      "politicsLean": 19.0,
+      "schoolRating": 73,
+      "urbanizationPct": 71.0
+    },
+    "name": "Idaho",
+    "tax": {
+      "avgLocalSalesRate": 0.0003,
+      "effectivePropertyRate": 0.0046,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 0,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 570,
+          "thresholdUsd": 4673
+        }
+      ],
+      "salesRate": 0.06
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 52.0,
+      "humidityAvgPct": 71.0,
+      "snowDaysPerYear": 21,
+      "sunDaysPerYear": 197
+    },
+    "code": "IL",
+    "col": {
+      "rpp": 1.0
+    },
+    "demographics": {
+      "densityPerSqMi": 226.0,
+      "medianAge": 38.9,
+      "population": 12582000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 6,
+      "politicsLean": -7.0,
+      "schoolRating": 55,
+      "urbanizationPct": 89.0
+    },
+    "name": "Illinois",
+    "tax": {
+      "avgLocalSalesRate": 0.0261,
+      "effectivePropertyRate": 0.0168,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 495,
+          "thresholdUsd": 0
+        }
+      ],
+      "salesRate": 0.0625
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 52.0,
+      "humidityAvgPct": 72.0,
+      "snowDaysPerYear": 23,
+      "sunDaysPerYear": 189
+    },
+    "code": "IN",
+    "col": {
+      "rpp": 0.91
+    },
+    "demographics": {
+      "densityPerSqMi": 190.0,
+      "medianAge": 37.9,
+      "population": 6833000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 7,
+      "politicsLean": 11.0,
+      "schoolRating": 66,
+      "urbanizationPct": 73.0
+    },
+    "name": "Indiana",
+    "tax": {
+      "avgLocalSalesRate": 0.0,
+      "effectivePropertyRate": 0.0068,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 300,
+          "thresholdUsd": 0
+        }
+      ],
+      "salesRate": 0.07
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 55.0,
+      "humidityAvgPct": 66.0,
+      "snowDaysPerYear": 16,
+      "sunDaysPerYear": 215
+    },
+    "code": "KS",
+    "col": {
+      "rpp": 0.91
+    },
+    "demographics": {
+      "densityPerSqMi": 36.0,
+      "medianAge": 37.2,
+      "population": 2938000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 10,
+      "politicsLean": 11.0,
+      "schoolRating": 59,
+      "urbanizationPct": 74.0
+    },
+    "name": "Kansas",
+    "tax": {
+      "avgLocalSalesRate": 0.0215,
+      "effectivePropertyRate": 0.0136,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 520,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 558,
+          "thresholdUsd": 23000
+        }
+      ],
+      "salesRate": 0.065
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 56.0,
+      "humidityAvgPct": 70.0,
+      "snowDaysPerYear": 15,
+      "sunDaysPerYear": 197
+    },
+    "code": "KY",
+    "col": {
+      "rpp": 0.91
+    },
+    "demographics": {
+      "densityPerSqMi": 115.0,
+      "medianAge": 39.1,
+      "population": 4526000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 19,
+      "politicsLean": 16.0,
+      "schoolRating": 32,
+      "urbanizationPct": 59.0
+    },
+    "name": "Kentucky",
+    "tax": {
+      "avgLocalSalesRate": 0.0,
+      "effectivePropertyRate": 0.0062,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 400,
+          "thresholdUsd": 0
+        }
+      ],
+      "salesRate": 0.06
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 67.0,
+      "humidityAvgPct": 75.0,
+      "snowDaysPerYear": 1,
+      "sunDaysPerYear": 219
+    },
+    "code": "LA",
+    "col": {
+      "rpp": 0.93
+    },
+    "demographics": {
+      "densityPerSqMi": 107.0,
+      "medianAge": 38.4,
+      "population": 4590000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 14,
+      "politicsLean": 11.0,
+      "schoolRating": 9,
+      "urbanizationPct": 73.0
+    },
+    "name": "Louisiana",
+    "tax": {
+      "avgLocalSalesRate": 0.0511,
+      "effectivePropertyRate": 0.0039,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 300,
+          "thresholdUsd": 0
+        }
+      ],
+      "salesRate": 0.0445
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 49.0,
+      "humidityAvgPct": 68.0,
+      "snowDaysPerYear": 24,
+      "sunDaysPerYear": 199
+    },
+    "code": "MA",
+    "col": {
+      "rpp": 1.1
+    },
+    "demographics": {
+      "densityPerSqMi": 900.0,
+      "medianAge": 39.8,
+      "population": 6981000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 19,
+      "politicsLean": -15.0,
+      "schoolRating": 100,
+      "urbanizationPct": 92.0
+    },
+    "name": "Massachusetts",
+    "tax": {
+      "avgLocalSalesRate": 0.0,
+      "effectivePropertyRate": 0.0104,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 500,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 900,
+          "thresholdUsd": 1083150
+        }
+      ],
+      "salesRate": 0.0625
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 55.0,
+      "humidityAvgPct": 67.0,
+      "snowDaysPerYear": 14,
+      "sunDaysPerYear": 207
+    },
+    "code": "MD",
+    "col": {
+      "rpp": 1.09
+    },
+    "demographics": {
+      "densityPerSqMi": 627.0,
+      "medianAge": 38.8,
+      "population": 6165000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 20,
+      "politicsLean": -14.0,
+      "schoolRating": 68,
+      "urbanizationPct": 87.0
+    },
+    "name": "Maryland",
+    "tax": {
+      "avgLocalSalesRate": 0.0,
+      "effectivePropertyRate": 0.0088,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 200,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 300,
+          "thresholdUsd": 1000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 400,
+          "thresholdUsd": 2000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 475,
+          "thresholdUsd": 3000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 500,
+          "thresholdUsd": 100000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 525,
+          "thresholdUsd": 125000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 550,
+          "thresholdUsd": 150000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 575,
+          "thresholdUsd": 250000
+        }
+      ],
+      "salesRate": 0.06
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 44.0,
+      "humidityAvgPct": 72.0,
+      "snowDaysPerYear": 38,
+      "sunDaysPerYear": 183
+    },
+    "code": "ME",
+    "col": {
+      "rpp": 1.0
+    },
+    "demographics": {
+      "densityPerSqMi": 44.0,
+      "medianAge": 44.9,
+      "population": 1385000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 6,
+      "politicsLean": 1.0,
+      "schoolRating": 61,
+      "urbanizationPct": 39.0
+    },
+    "name": "Maine",
+    "tax": {
+      "avgLocalSalesRate": 0.0,
+      "effectivePropertyRate": 0.0098,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 580,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 675,
+          "thresholdUsd": 26800
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 715,
+          "thresholdUsd": 63450
+        }
+      ],
+      "salesRate": 0.055
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 46.0,
+      "humidityAvgPct": 73.0,
+      "snowDaysPerYear": 37,
+      "sunDaysPerYear": 185
+    },
+    "code": "MI",
+    "col": {
+      "rpp": 0.95
+    },
+    "demographics": {
+      "densityPerSqMi": 177.0,
+      "medianAge": 40.0,
+      "population": 10034000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 16,
+      "politicsLean": 0.0,
+      "schoolRating": 52,
+      "urbanizationPct": 75.0
+    },
+    "name": "Michigan",
+    "tax": {
+      "avgLocalSalesRate": 0.0,
+      "effectivePropertyRate": 0.0106,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 425,
+          "thresholdUsd": 0
+        }
+      ],
+      "salesRate": 0.06
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 43.0,
+      "humidityAvgPct": 72.0,
+      "snowDaysPerYear": 40,
+      "sunDaysPerYear": 198
+    },
+    "code": "MN",
+    "col": {
+      "rpp": 0.98
+    },
+    "demographics": {
+      "densityPerSqMi": 72.0,
+      "medianAge": 38.5,
+      "population": 5717000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 10,
+      "politicsLean": -1.0,
+      "schoolRating": 82,
+      "urbanizationPct": 73.0
+    },
+    "name": "Minnesota",
+    "tax": {
+      "avgLocalSalesRate": 0.0116,
+      "effectivePropertyRate": 0.0093,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 535,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 680,
+          "thresholdUsd": 32570
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 785,
+          "thresholdUsd": 106990
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 985,
+          "thresholdUsd": 198630
+        }
+      ],
+      "salesRate": 0.0688
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 55.0,
+      "humidityAvgPct": 68.0,
+      "snowDaysPerYear": 15,
+      "sunDaysPerYear": 212
+    },
+    "code": "MO",
+    "col": {
+      "rpp": 0.91
+    },
+    "demographics": {
+      "densityPerSqMi": 90.0,
+      "medianAge": 38.9,
+      "population": 6178000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 17,
+      "politicsLean": 9.0,
+      "schoolRating": 50,
+      "urbanizationPct": 70.0
+    },
+    "name": "Missouri",
+    "tax": {
+      "avgLocalSalesRate": 0.0416,
+      "effectivePropertyRate": 0.0065,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 200,
+          "thresholdUsd": 1313
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 250,
+          "thresholdUsd": 2626
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 300,
+          "thresholdUsd": 3939
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 350,
+          "thresholdUsd": 5252
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 400,
+          "thresholdUsd": 6565
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 450,
+          "thresholdUsd": 7878
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 470,
+          "thresholdUsd": 9191
+        }
+      ],
+      "salesRate": 0.0423
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 64.0,
+      "humidityAvgPct": 73.0,
+      "snowDaysPerYear": 2,
+      "sunDaysPerYear": 213
+    },
+    "code": "MS",
+    "col": {
+      "rpp": 0.87
+    },
+    "demographics": {
+      "densityPerSqMi": 63.0,
+      "medianAge": 38.5,
+      "population": 2940000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 16,
+      "politicsLean": 9.0,
+      "schoolRating": 14,
+      "urbanizationPct": 50.0
+    },
+    "name": "Mississippi",
+    "tax": {
+      "avgLocalSalesRate": 0.0006,
+      "effectivePropertyRate": 0.0055,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 0,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 440,
+          "thresholdUsd": 10000
+        }
+      ],
+      "salesRate": 0.07
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 43.0,
+      "humidityAvgPct": 61.0,
+      "snowDaysPerYear": 36,
+      "sunDaysPerYear": 207
+    },
+    "code": "MT",
+    "col": {
+      "rpp": 0.97
+    },
+    "demographics": {
+      "densityPerSqMi": 7.0,
+      "medianAge": 39.8,
+      "population": 1122000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 36,
+      "politicsLean": 11.0,
+      "schoolRating": 59,
+      "urbanizationPct": 56.0
+    },
+    "name": "Montana",
+    "tax": {
+      "avgLocalSalesRate": 0.0,
+      "effectivePropertyRate": 0.0061,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 470,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 590,
+          "thresholdUsd": 21100
+        }
+      ],
+      "salesRate": 0.0
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 60.0,
+      "humidityAvgPct": 69.0,
+      "snowDaysPerYear": 6,
+      "sunDaysPerYear": 213
+    },
+    "code": "NC",
+    "col": {
+      "rpp": 0.93
+    },
+    "demographics": {
+      "densityPerSqMi": 216.0,
+      "medianAge": 39.0,
+      "population": 10699000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 26,
+      "politicsLean": 3.0,
+      "schoolRating": 50,
+      "urbanizationPct": 67.0
+    },
+    "name": "North Carolina",
+    "tax": {
+      "avgLocalSalesRate": 0.0225,
+      "effectivePropertyRate": 0.0087,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 425,
+          "thresholdUsd": 0
+        }
+      ],
+      "salesRate": 0.0475
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 40.0,
+      "humidityAvgPct": 68.0,
+      "snowDaysPerYear": 38,
+      "sunDaysPerYear": 199
+    },
+    "code": "ND",
+    "col": {
+      "rpp": 0.95
+    },
+    "demographics": {
+      "densityPerSqMi": 11.0,
+      "medianAge": 35.5,
+      "population": 780000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 10,
+      "politicsLean": 20.0,
+      "schoolRating": 68,
+      "urbanizationPct": 65.0
+    },
+    "name": "North Dakota",
+    "tax": {
+      "avgLocalSalesRate": 0.0204,
+      "effectivePropertyRate": 0.0098,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 0,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 195,
+          "thresholdUsd": 48475
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 250,
+          "thresholdUsd": 244825
+        }
+      ],
+      "salesRate": 0.05
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 50.0,
+      "humidityAvgPct": 68.0,
+      "snowDaysPerYear": 22,
+      "sunDaysPerYear": 212
+    },
+    "code": "NE",
+    "col": {
+      "rpp": 0.92
+    },
+    "demographics": {
+      "densityPerSqMi": 26.0,
+      "medianAge": 36.5,
+      "population": 1963000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 6,
+      "politicsLean": 14.0,
+      "schoolRating": 70,
+      "urbanizationPct": 73.0
+    },
+    "name": "Nebraska",
+    "tax": {
+      "avgLocalSalesRate": 0.0147,
+      "effectivePropertyRate": 0.0119,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 246,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 351,
+          "thresholdUsd": 4030
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 501,
+          "thresholdUsd": 24120
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 520,
+          "thresholdUsd": 38870
+        }
+      ],
+      "salesRate": 0.055
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 45.0,
+      "humidityAvgPct": 71.0,
+      "snowDaysPerYear": 36,
+      "sunDaysPerYear": 188
+    },
+    "code": "NH",
+    "col": {
+      "rpp": 1.05
+    },
+    "demographics": {
+      "densityPerSqMi": 153.0,
+      "medianAge": 43.0,
+      "population": 1389000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 13,
+      "politicsLean": 1.0,
+      "schoolRating": 73,
+      "urbanizationPct": 60.0
+    },
+    "name": "New Hampshire",
+    "tax": {
+      "avgLocalSalesRate": 0.0,
+      "effectivePropertyRate": 0.0218,
+      "incomeBrackets": [],
+      "salesRate": 0.0
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 54.0,
+      "humidityAvgPct": 68.0,
+      "snowDaysPerYear": 17,
+      "sunDaysPerYear": 205
+    },
+    "code": "NJ",
+    "col": {
+      "rpp": 1.13
+    },
+    "demographics": {
+      "densityPerSqMi": 1260.0,
+      "medianAge": 40.0,
+      "population": 9261000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 40,
+      "politicsLean": -7.0,
+      "schoolRating": 86,
+      "urbanizationPct": 95.0
+    },
+    "name": "New Jersey",
+    "tax": {
+      "avgLocalSalesRate": 0.0,
+      "effectivePropertyRate": 0.0084,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 140,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 175,
+          "thresholdUsd": 20000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 350,
+          "thresholdUsd": 35000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 553,
+          "thresholdUsd": 40000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 637,
+          "thresholdUsd": 75000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 897,
+          "thresholdUsd": 500000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 1075,
+          "thresholdUsd": 1000000
+        }
+      ],
+      "salesRate": 0.0663
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 56.0,
+      "humidityAvgPct": 45.0,
+      "snowDaysPerYear": 8,
+      "sunDaysPerYear": 278
+    },
+    "code": "NM",
+    "col": {
+      "rpp": 0.95
+    },
+    "demographics": {
+      "densityPerSqMi": 17.0,
+      "medianAge": 38.5,
+      "population": 2114000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 47,
+      "politicsLean": 2.0,
+      "schoolRating": 0,
+      "urbanizationPct": 74.0
+    },
+    "name": "New Mexico",
+    "tax": {
+      "avgLocalSalesRate": 0.0274,
+      "effectivePropertyRate": 0.008,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 150,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 320,
+          "thresholdUsd": 5500
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 430,
+          "thresholdUsd": 16500
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 470,
+          "thresholdUsd": 33500
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 490,
+          "thresholdUsd": 66500
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 590,
+          "thresholdUsd": 210000
+        }
+      ],
+      "salesRate": 0.0488
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 50.0,
+      "humidityAvgPct": 40.0,
+      "snowDaysPerYear": 7,
+      "sunDaysPerYear": 265
+    },
+    "code": "NV",
+    "col": {
+      "rpp": 1.01
+    },
+    "demographics": {
+      "densityPerSqMi": 29.0,
+      "medianAge": 38.5,
+      "population": 3178000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 55,
+      "politicsLean": -1.0,
+      "schoolRating": 30,
+      "urbanizationPct": 94.0
+    },
+    "name": "Nevada",
+    "tax": {
+      "avgLocalSalesRate": 0.0139,
+      "effectivePropertyRate": 0.0059,
+      "incomeBrackets": [],
+      "salesRate": 0.0685
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 46.0,
+      "humidityAvgPct": 71.0,
+      "snowDaysPerYear": 28,
+      "sunDaysPerYear": 188
+    },
+    "code": "NY",
+    "col": {
+      "rpp": 1.16
+    },
+    "demographics": {
+      "densityPerSqMi": 418.0,
+      "medianAge": 39.0,
+      "population": 19677000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 45,
+      "politicsLean": -10.0,
+      "schoolRating": 52,
+      "urbanizationPct": 88.0
+    },
+    "name": "New York",
+    "tax": {
+      "avgLocalSalesRate": 0.0453,
+      "effectivePropertyRate": 0.0172,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 400,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 450,
+          "thresholdUsd": 8500
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 525,
+          "thresholdUsd": 11700
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 550,
+          "thresholdUsd": 13900
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 600,
+          "thresholdUsd": 80650
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 685,
+          "thresholdUsd": 215400
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 965,
+          "thresholdUsd": 1077550
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 1030,
+          "thresholdUsd": 5000000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 1090,
+          "thresholdUsd": 25000000
+        }
+      ],
+      "salesRate": 0.04
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 51.0,
+      "humidityAvgPct": 72.0,
+      "snowDaysPerYear": 24,
+      "sunDaysPerYear": 183
+    },
+    "code": "OH",
+    "col": {
+      "rpp": 0.93
+    },
+    "demographics": {
+      "densityPerSqMi": 288.0,
+      "medianAge": 39.7,
+      "population": 11756000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 15,
+      "politicsLean": 5.0,
+      "schoolRating": 55,
+      "urbanizationPct": 78.0
+    },
+    "name": "Ohio",
+    "tax": {
+      "avgLocalSalesRate": 0.0149,
+      "effectivePropertyRate": 0.0156,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 275,
+          "thresholdUsd": 26050
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 350,
+          "thresholdUsd": 100000
+        }
+      ],
+      "salesRate": 0.0575
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 61.0,
+      "humidityAvgPct": 65.0,
+      "snowDaysPerYear": 9,
+      "sunDaysPerYear": 222
+    },
+    "code": "OK",
+    "col": {
+      "rpp": 0.9
+    },
+    "demographics": {
+      "densityPerSqMi": 59.0,
+      "medianAge": 37.0,
+      "population": 4019000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 7,
+      "politicsLean": 20.0,
+      "schoolRating": 20,
+      "urbanizationPct": 67.0
+    },
+    "name": "Oklahoma",
+    "tax": {
+      "avgLocalSalesRate": 0.0449,
+      "effectivePropertyRate": 0.009,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 25,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 75,
+          "thresholdUsd": 1000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 175,
+          "thresholdUsd": 2500
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 275,
+          "thresholdUsd": 3750
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 375,
+          "thresholdUsd": 4900
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 475,
+          "thresholdUsd": 7200
+        }
+      ],
+      "salesRate": 0.045
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 49.0,
+      "humidityAvgPct": 77.0,
+      "snowDaysPerYear": 6,
+      "sunDaysPerYear": 152
+    },
+    "code": "OR",
+    "col": {
+      "rpp": 1.05
+    },
+    "demographics": {
+      "densityPerSqMi": 44.0,
+      "medianAge": 39.5,
+      "population": 4237000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 44,
+      "politicsLean": -5.0,
+      "schoolRating": 55,
+      "urbanizationPct": 81.0
+    },
+    "name": "Oregon",
+    "tax": {
+      "avgLocalSalesRate": 0.0,
+      "effectivePropertyRate": 0.0097,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 475,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 675,
+          "thresholdUsd": 4400
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 875,
+          "thresholdUsd": 11050
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 990,
+          "thresholdUsd": 125000
+        }
+      ],
+      "salesRate": 0.0
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 50.0,
+      "humidityAvgPct": 70.0,
+      "snowDaysPerYear": 22,
+      "sunDaysPerYear": 192
+    },
+    "code": "PA",
+    "col": {
+      "rpp": 1.0
+    },
+    "demographics": {
+      "densityPerSqMi": 291.0,
+      "medianAge": 40.9,
+      "population": 12972000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 39,
+      "politicsLean": 2.0,
+      "schoolRating": 57,
+      "urbanizationPct": 79.0
+    },
+    "name": "Pennsylvania",
+    "tax": {
+      "avgLocalSalesRate": 0.0034,
+      "effectivePropertyRate": 0.0158,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 307,
+          "thresholdUsd": 0
+        }
+      ],
+      "salesRate": 0.06
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 50.0,
+      "humidityAvgPct": 69.0,
+      "snowDaysPerYear": 23,
+      "sunDaysPerYear": 200
+    },
+    "code": "RI",
+    "col": {
+      "rpp": 1.07
+    },
+    "demographics": {
+      "densityPerSqMi": 1021.0,
+      "medianAge": 40.4,
+      "population": 1094000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 4,
+      "politicsLean": -12.0,
+      "schoolRating": 52,
+      "urbanizationPct": 91.0
+    },
+    "name": "Rhode Island",
+    "tax": {
+      "avgLocalSalesRate": 0.0,
+      "effectivePropertyRate": 0.0163,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 375,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 475,
+          "thresholdUsd": 79900
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 599,
+          "thresholdUsd": 181650
+        }
+      ],
+      "salesRate": 0.07
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 63.0,
+      "humidityAvgPct": 70.0,
+      "snowDaysPerYear": 4,
+      "sunDaysPerYear": 215
+    },
+    "code": "SC",
+    "col": {
+      "rpp": 0.92
+    },
+    "demographics": {
+      "densityPerSqMi": 175.0,
+      "medianAge": 40.2,
+      "population": 5282000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 22,
+      "politicsLean": 8.0,
+      "schoolRating": 34,
+      "urbanizationPct": 67.0
+    },
+    "name": "South Carolina",
+    "tax": {
+      "avgLocalSalesRate": 0.015,
+      "effectivePropertyRate": 0.0057,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 0,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 300,
+          "thresholdUsd": 3560
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 620,
+          "thresholdUsd": 17830
+        }
+      ],
+      "salesRate": 0.06
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 46.0,
+      "humidityAvgPct": 67.0,
+      "snowDaysPerYear": 34,
+      "sunDaysPerYear": 207
+    },
+    "code": "SD",
+    "col": {
+      "rpp": 0.94
+    },
+    "demographics": {
+      "densityPerSqMi": 12.0,
+      "medianAge": 37.0,
+      "population": 909000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 13,
+      "politicsLean": 14.0,
+      "schoolRating": 64,
+      "urbanizationPct": 58.0
+    },
+    "name": "South Dakota",
+    "tax": {
+      "avgLocalSalesRate": 0.0191,
+      "effectivePropertyRate": 0.0131,
+      "incomeBrackets": [],
+      "salesRate": 0.042
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 59.0,
+      "humidityAvgPct": 70.0,
+      "snowDaysPerYear": 9,
+      "sunDaysPerYear": 206
+    },
+    "code": "TN",
+    "col": {
+      "rpp": 0.92
+    },
+    "demographics": {
+      "densityPerSqMi": 170.0,
+      "medianAge": 39.0,
+      "population": 7051000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 25,
+      "politicsLean": 14.0,
+      "schoolRating": 36,
+      "urbanizationPct": 67.0
+    },
+    "name": "Tennessee",
+    "tax": {
+      "avgLocalSalesRate": 0.0255,
+      "effectivePropertyRate": 0.0071,
+      "incomeBrackets": [],
+      "salesRate": 0.07
+    }
+  },
+  {
+    "climate": {
       "avgTempF": 65.0,
       "humidityAvgPct": 64.0,
       "snowDaysPerYear": 2,
@@ -62,9 +1927,9 @@
       "population": 30000000
     },
     "lifestyle": {
-      "outdoorRecRating": 70,
-      "politicsLean": 25.0,
-      "schoolRating": 60,
+      "outdoorRecRating": 24,
+      "politicsLean": 5.0,
+      "schoolRating": 45,
       "urbanizationPct": 84.0
     },
     "name": "Texas",
@@ -73,6 +1938,311 @@
       "effectivePropertyRate": 0.0181,
       "incomeBrackets": [],
       "salesRate": 0.0625
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 51.0,
+      "humidityAvgPct": 53.0,
+      "snowDaysPerYear": 25,
+      "sunDaysPerYear": 222
+    },
+    "code": "UT",
+    "col": {
+      "rpp": 0.99
+    },
+    "demographics": {
+      "densityPerSqMi": 41.0,
+      "medianAge": 31.9,
+      "population": 3380000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 64,
+      "politicsLean": 14.0,
+      "schoolRating": 66,
+      "urbanizationPct": 91.0
+    },
+    "name": "Utah",
+    "tax": {
+      "avgLocalSalesRate": 0.0115,
+      "effectivePropertyRate": 0.006,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 455,
+          "thresholdUsd": 0
+        }
+      ],
+      "salesRate": 0.061
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 57.0,
+      "humidityAvgPct": 68.0,
+      "snowDaysPerYear": 13,
+      "sunDaysPerYear": 210
+    },
+    "code": "VA",
+    "col": {
+      "rpp": 1.03
+    },
+    "demographics": {
+      "densityPerSqMi": 219.0,
+      "medianAge": 38.7,
+      "population": 8683000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 41,
+      "politicsLean": 2.0,
+      "schoolRating": 73,
+      "urbanizationPct": 76.0
+    },
+    "name": "Virginia",
+    "tax": {
+      "avgLocalSalesRate": 0.0047,
+      "effectivePropertyRate": 0.0081,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 200,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 300,
+          "thresholdUsd": 3000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 500,
+          "thresholdUsd": 5000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 575,
+          "thresholdUsd": 17000
+        }
+      ],
+      "salesRate": 0.053
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 43.0,
+      "humidityAvgPct": 72.0,
+      "snowDaysPerYear": 38,
+      "sunDaysPerYear": 185
+    },
+    "code": "VT",
+    "col": {
+      "rpp": 1.04
+    },
+    "demographics": {
+      "densityPerSqMi": 70.0,
+      "medianAge": 43.1,
+      "population": 645000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 5,
+      "politicsLean": -15.0,
+      "schoolRating": 73,
+      "urbanizationPct": 35.0
+    },
+    "name": "Vermont",
+    "tax": {
+      "avgLocalSalesRate": 0.0036,
+      "effectivePropertyRate": 0.019,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 335,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 660,
+          "thresholdUsd": 47900
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 760,
+          "thresholdUsd": 116000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 875,
+          "thresholdUsd": 242000
+        }
+      ],
+      "salesRate": 0.06
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 49.0,
+      "humidityAvgPct": 78.0,
+      "snowDaysPerYear": 7,
+      "sunDaysPerYear": 137
+    },
+    "code": "WA",
+    "col": {
+      "rpp": 1.06
+    },
+    "demographics": {
+      "densityPerSqMi": 117.0,
+      "medianAge": 37.8,
+      "population": 7785000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 44,
+      "politicsLean": -5.0,
+      "schoolRating": 61,
+      "urbanizationPct": 84.0
+    },
+    "name": "Washington",
+    "tax": {
+      "avgLocalSalesRate": 0.0288,
+      "effectivePropertyRate": 0.0084,
+      "incomeBrackets": [],
+      "salesRate": 0.065
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 44.0,
+      "humidityAvgPct": 73.0,
+      "snowDaysPerYear": 35,
+      "sunDaysPerYear": 193
+    },
+    "code": "WI",
+    "col": {
+      "rpp": 0.95
+    },
+    "demographics": {
+      "densityPerSqMi": 108.0,
+      "medianAge": 40.3,
+      "population": 5896000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 12,
+      "politicsLean": 2.0,
+      "schoolRating": 61,
+      "urbanizationPct": 71.0
+    },
+    "name": "Wisconsin",
+    "tax": {
+      "avgLocalSalesRate": 0.007,
+      "effectivePropertyRate": 0.0185,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 350,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 440,
+          "thresholdUsd": 14680
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 530,
+          "thresholdUsd": 29370
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 765,
+          "thresholdUsd": 323290
+        }
+      ],
+      "salesRate": 0.05
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 51.0,
+      "humidityAvgPct": 72.0,
+      "snowDaysPerYear": 27,
+      "sunDaysPerYear": 181
+    },
+    "code": "WV",
+    "col": {
+      "rpp": 0.91
+    },
+    "demographics": {
+      "densityPerSqMi": 74.0,
+      "medianAge": 42.8,
+      "population": 1775000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 12,
+      "politicsLean": 22.0,
+      "schoolRating": 9,
+      "urbanizationPct": 49.0
+    },
+    "name": "West Virginia",
+    "tax": {
+      "avgLocalSalesRate": 0.0057,
+      "effectivePropertyRate": 0.0058,
+      "incomeBrackets": [
+        {
+          "filingStatus": "single",
+          "rateBps": 300,
+          "thresholdUsd": 0
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 400,
+          "thresholdUsd": 10000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 450,
+          "thresholdUsd": 25000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 600,
+          "thresholdUsd": 40000
+        },
+        {
+          "filingStatus": "single",
+          "rateBps": 650,
+          "thresholdUsd": 60000
+        }
+      ],
+      "salesRate": 0.06
+    }
+  },
+  {
+    "climate": {
+      "avgTempF": 46.0,
+      "humidityAvgPct": 56.0,
+      "snowDaysPerYear": 41,
+      "sunDaysPerYear": 218
+    },
+    "code": "WY",
+    "col": {
+      "rpp": 0.97
+    },
+    "demographics": {
+      "densityPerSqMi": 6.0,
+      "medianAge": 37.5,
+      "population": 581000
+    },
+    "lifestyle": {
+      "outdoorRecRating": 38,
+      "politicsLean": 25.0,
+      "schoolRating": 66,
+      "urbanizationPct": 64.0
+    },
+    "name": "Wyoming",
+    "tax": {
+      "avgLocalSalesRate": 0.0144,
+      "effectivePropertyRate": 0.0061,
+      "incomeBrackets": [],
+      "salesRate": 0.04
     }
   }
 ]
