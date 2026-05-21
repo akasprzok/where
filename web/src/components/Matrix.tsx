@@ -13,12 +13,13 @@ interface Row extends ScoredRow {
 interface Props {
   states: StateRecord[];
   profile: Profile;
+  onRowClick?: (code: string) => void;
 }
 
 const fmtUsd = (n: number) => `$${Math.round(n).toLocaleString()}`;
 const fmtPct = (n: number) => `${n.toFixed(1)}`;
 
-export function Matrix({ states, profile }: Props) {
+export function Matrix({ states, profile, onRowClick }: Props) {
   const rows = useMemo<Row[]>(() => {
     const scored = computeWeighted(states, profile);
     const byCode = new Map(scored.map((r) => [r.code, r]));
@@ -63,7 +64,11 @@ export function Matrix({ states, profile }: Props) {
       </thead>
       <tbody>
         {table.getRowModel().rows.map((r) => (
-          <tr key={r.id}>
+          <tr
+            key={r.id}
+            onClick={onRowClick ? () => onRowClick(r.original.code) : undefined}
+            style={onRowClick ? { cursor: "pointer" } : undefined}
+          >
             {r.getVisibleCells().map((c) => (
               <td key={c.id} style={{ padding: 8, borderBottom: "1px solid #eee" }}>
                 {flexRender(c.column.columnDef.cell, c.getContext())}
